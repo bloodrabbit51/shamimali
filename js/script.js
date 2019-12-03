@@ -24,7 +24,10 @@ $(function() {
     });
 });
 
-
+window.addEventListener("load", function () {
+    const loader = document.querySelector(".loader");
+    loader.className += " hidden"; // class "loader hidden"
+});
 // //jQuery to collapse the navbar on scroll
 // $(window).scroll(function() {
 //     if ($(".navbar").offset().top > 100) {
