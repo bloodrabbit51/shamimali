@@ -121,3 +121,57 @@ p.intro-hello {
         visibility: hidden;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  font-size: 2em;
+  width: 60%;
+}
+
+a.connecta {
+  color: #ddd;
+  text-decoration: none;
+  transition: all .5s ease-in-out;
+}
+[title="Instagram"]:hover{
+  color: rgb(124,86,65);
+}
+[title="GitHub"]:hover{
+  color: rgb(114,49,132);
+}
+[title="LinkedIn"]:hover{
+  color: rgb(0,119,181);
+}
+[title="Facebook"]:hover{
+  color: rgb(220,62,69);
+}
+[title="Steam"]:hover{
+  color: rgb(222,30,12);
+}
+[title="Contact"]:hover{
+  color: rgb(230,182,10);
+}
+[center]{
+  text-align: center;
+}
+
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
