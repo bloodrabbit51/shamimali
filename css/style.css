@@ -80,8 +80,9 @@ p.intro-hello {
 .about-section {
   background-image: url("ricepaper/ricepaper.png");
 }
-.services-section {
+.project-section {
   height: 100%;
+  padding-top: 150px;
   text-align: center;
   background-image: url("ricepaper/ricepaper.png");
 }
@@ -133,7 +134,7 @@ p.intro-hello {
 
 
 
-ul {
+ul.connectul {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
@@ -152,14 +153,17 @@ a.connecta {
 [title="GitHub"]:hover{
   color: rgb(114,49,132);
 }
+[title="Youtube"]:hover{
+  color: rgba(255,0,4,1.00);
+}
 [title="LinkedIn"]:hover{
   color: rgb(0,119,181);
 }
 [title="Facebook"]:hover{
-  color: rgb(220,62,69);
+  color: rgb(59,92,160);
 }
 [title="Steam"]:hover{
-  color: rgb(222,30,12);
+  color: rgb(28,48,73);
 }
 [title="Contact"]:hover{
   color: rgb(230,182,10);
